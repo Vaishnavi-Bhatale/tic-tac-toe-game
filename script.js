@@ -48,6 +48,7 @@ const checkWinner = () => {
                 console.log("winner");
                 disableboxes();
                 showWinner(pos1Val);
+                return;
             }
         }
     }
@@ -80,6 +81,7 @@ const disableboxes = () => {
 }
 
 let restart = ()=>{
+    moveCount = 0;
     boxes.forEach((box) => {
         box.innerText = " ";
         box.disabled = false;
@@ -92,5 +94,6 @@ let restart = ()=>{
 
 
 resetbtn.addEventListener("click",restart);
+
 
 newgame.addEventListener("click", restart);
