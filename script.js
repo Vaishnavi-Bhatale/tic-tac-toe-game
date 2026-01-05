@@ -83,7 +83,7 @@ const disableboxes = () => {
 let restart = ()=>{
     moveCount = 0;
     boxes.forEach((box) => {
-        box.innerText = " ";
+        box.innerText = "";
         box.disabled = false;
     });
     turnX = true;
@@ -97,3 +97,4 @@ resetbtn.addEventListener("click",restart);
 
 
 newgame.addEventListener("click", restart);
+
