@@ -3,7 +3,7 @@
 A simple and interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.  
 This project demonstrates basic front-end development concepts and DOM manipulation.
 
-🔗 **Live Demo:** [Play Tic-Tac-Toe Online]()
+🔗 **Live Demo:** [Play Tic-Tac-Toe Online](https://vaishnavi-bhatale.github.io/tic-tac-toe-game/)
 
 ## Features
 - Two-player game (Player X and Player O)
